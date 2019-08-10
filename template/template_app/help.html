@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+{% load staticfiles %}
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Ceevee - Free Responsive HTML5/CSS3 Template</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static 'css/default.css' %}">
+ 	  <link rel="stylesheet" href="{% static 'css/layout.css' %}">
+    <link rel="stylesheet" href="{% static 'css/media-queries.css' %}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}">
+
+   <!-- Script
+   ================================================== -->
+	<script src="{% static 'js/modernizr.js' %}"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+  <header id="home">
+
+   <nav id="nav-wrap">
+
+     <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+     <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+      <ul id="nav" class="nav">
+         <li id="masa" class="current"><a class="smoothscroll" href="#home">MASA</a></li>
+         <li><a class="smoothscroll" href="#about">About</a></li>
+        <li><a class="smoothscroll" href="#resume">Projects</a></li>
+         <li><a class="smoothscroll" href="#portfolio">Experience</a></li>
+         <li><a class="smoothscroll" href="#contact">Contact</a></li>
+      </ul> <!-- end #nav -->
+
+   </nav> <!-- end #nav-wrap -->
+
+   <div class="row banner">
+      <div class="banner-text">
+         <h2 id = 'im' >Hi, I'm Masataro</h2>
+         <h3 id = "intro">I'm a Computer Science student who likes awesome technologies </h3>
+         <p class="scrolldown">
+            <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+         </p>
+      </div>
+   </div>
+
+
+</header> <!-- Header End -->
+
+
+<!-- About Section
+================================================== -->
+<section id="about">
+   <h3 id="projects">About Me</h3>
+   <hr id = "hrid"/>
+
+   <div class="everything">
+     <div class="content">
+        <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+        <h3><strong>Masataro Koizumi</strong></h3>
+
+     </div>
+
+       <p style = "font-size: 18px">I'm studying computer science with a concentration in
+          biological science at the University of Maryland College Park. In my spare time I
+          enjoy playing guitar, listening to music and occasionally playing basketball.
+       </p>
+
+       <div class="row">
+
+          <div class="columns contact-details">
+
+             <h2>Contact Details</h2>
+          </div>
+
+       </div> <!-- end row -->
+
+   </div>
+
+
+
+
+   <p style = "text-align: center;">
+     <a href="#" class="button"><i class="fa fa-download"></i>  Resume</a>
+   </p>
+
+
+</section> <!-- About Section End-->
+
+<!-- You need to paste back stuff in here! -->
+
+
+
+<!-- footer
+================================================== -->
+<footer>
+
+   <div class="row">
+
+      <div class="twelve columns">
+
+
+
+
+
+      </div>
+
+      <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+   </div>
+
+</footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="{% static 'js/jquery-migrate-1.2.1.min.js' %}"></script>
+
+   <script src="{% static 'js/jquery.flexslider.js' %}"></script>
+   <script src="{% static 'js/waypoints.js' %}"></script>
+   <script src="{% static 'js/jquery.fittext.js' %}"></script>
+   <script src="{% static 'js/magnific-popup.js' %}"></script>
+   <script src="{% static 'js/init.js' %}"></script>
+
+</body>
+
+</html>
