@@ -12,7 +12,7 @@ from faker import Faker
 fakegen = Faker()
 topics = ['Search', 'Social', 'Marketplace', 'News', 'Games']
 
-# adds random topic from topics list
+# adds random topic from topics lists
 def add_topic():
     # indexing of zero at the end to just get the object of tuple (look at the doc)
     # Topic.objects.get_or_create(...) -> creates an OBJECT!!!
